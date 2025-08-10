@@ -1,6 +1,12 @@
 import pandas as pd
 
-df = pd.read_csv("sales_data_sample.csv", encoding="latin1")
+data ={
+    "Name":['Ram', 'Shyam','Ghanashyam'],
+    "Age":[10, 20, 30],
+    "City":["Nagpur", "Mumbai", "Delhi"]
+}
+
+df = pd.DataFrame(data)
 
 print("Displaying the info of data set")
 print(df.info())
