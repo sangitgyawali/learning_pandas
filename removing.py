@@ -13,5 +13,5 @@ print(df)
 # df.drop(columns = ["ColumnName"], inplace=True)
 
 print("Modified Data")
-df.drop(columns=["Performance_Score"], inplace=True)
+df.drop(columns=["Performance_Score","Age"], inplace=True)
 print(df)
