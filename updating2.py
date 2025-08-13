@@ -10,7 +10,7 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 
-#.loc[]
-# df.loc[row_index, "Column"] = new_value
-df.loc[0, 'Salary'] = 55000
+#increasing salary by 5%
+df['Salary'] = df['Salary'] * 1.05
+
 print(df)
