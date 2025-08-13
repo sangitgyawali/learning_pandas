@@ -12,3 +12,9 @@ print(df)
 
 df["Bonus"] = df['Salary'] * 0.1
 print(df)
+
+#using insert[]
+# df.insert(loc, "Column_Name", some_data)
+
+df.insert(0, "Employee ID", [10, 20, 30, 40, 50, 60, 70, 80])
+print(df)
