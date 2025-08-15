@@ -12,5 +12,5 @@ df_Region2 = pd.DataFrame({
     'Name':['Shyam', 'Baburam']
 })
 
-df_concat = pd.concat([df_Region1, df_Region2], axis=1, ignore_index=True)
+df_concat = pd.concat([df_Region1, df_Region2], axis=0, ignore_index=True)
 print(df_concat)
