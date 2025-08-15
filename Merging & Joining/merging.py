@@ -10,6 +10,6 @@ df_orders = pd.DataFrame({
     'OrderAmount': [250, 450, 350]
 })
 
-df_merged = pd.merge(df_customers, df_orders, on="CustomerID", how="left")
-print("Left join")
+df_merged = pd.merge(df_customers, df_orders, on="CustomerID", how="right")
+print("Right join")
 print(df_merged)
